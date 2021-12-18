@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="main.scss">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Prata&display=swap" rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+    <title>Фуд-стилист</title>
+
+
+    <script src="js/jssor.slider-22.2.6.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+</head>
+
+
+
+<body>
+    <div class="header">
+        <img class="logo" src="img/7ee41fe23a511a4affff077a6ab2caec.png" alt="">
+        <div class="navigation">
+        <a class="texthead1" href="index.html">Главная </a>
+        <a class="texthead2" href="#about">Описание</a>
+        <a class="texthead3" href="#preim">Преимущества</a>
+        <a class="texthead4" href="#treb">Требования</a>
+        <a class="texthead5" href="#vak">Вакансии</a>
+        <a class="texthead5" href="#ned">Недостатки</a>
+        <a class="texthead5" href="#shag">Первые шаги </a>
+        </div>
+</div>
+<div class="sect1"  style="position:relative" >
+<div class="textmain1"
+                 style="position:absolute;
+                 top:85px;
+                 left:30px;
+                 z-index:1;
+                 font-size:62px;
+                 color:#061c35;
+                 font-weight: bold;
+                 line-height:60px;">Фуд-стилист</div>
+    <div id="jssor_1" style="position:relative;
+    margin:0 auto;
+    top:20px;
+    left:0px;
+    width:1920px;
+    height: 900px;
+    overflow:hidden;
+    visibility:hidden;">
+        <!-- Loading Screen -->
+      
+        <div data-u="slides" 
+        style="cursor:default;
+        position:relative;
+        top:0px;
+        width:1920px;
+        height: 900px;
+        overflow:hidden;">
+          
+            <div>
+                <img class="img1" data-u="image" src="img/1568021894_breakfast-690128_1920.jpg" />
+                
+                <div class="textmain" 
+                style="position:absolute;
+                top:50%;
+                left:30px;
+                width:780px;
+                z-index:0;
+                font-size:36px;
+                color:#061c35;
+                line-height:38px;"> Фуд-стилист – художник и фотограф в одном флаконе, который создает яркие и аппетитные снимки продуктов, ингредиентов и готовых блюд.</div>
+            </div>
+
+            <div>
+                <img class="img1" data-u="image" src="img/113813_fud_stilist-min.jpg" />
+                
+                <div class="textmain" style="position:absolute;top:50%;left:30px;width:780px;z-index:0;font-size:36px; color:#061c35;line-height:38px;"> Фуд-стилист – человек с богатым воображением, который практикует нестандартный подход и обладает развитым чувством прекрасного.</div>
+            </div>
+
+            <div>
+                <img class="img1" data-u="image" src="img/фудстайлинг-баннер.jpg" />
+               <div class="textmain" style="position:absolute;top:50%;left:30px;width:780px;z-index:0;font-size:30px; color:#061c35;line-height:38px;"> Фуд-стилист – специалист с отличной фантазией, эстетическим вкусом и креативностью.</div>
+            </div>
+          
+          
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+         </div>
+<script type="text/javascript">jssor_1_slider_init();</script>
+</div>
+<section id="about" class="about">
+    <div class="container">
+        <h2>Кто такой фуд-стилист ?   </h2>
+
+
+        <div class="description">
+            <div class="desc-left">
+                <h3>Особенности профессии</h3>
+                <p>
+                    Фуд-стилист – художник и фотограф в одном флаконе, 
+                    который создает яркие и аппетитные снимки продуктов,
+                     ингредиентов и готовых блюд. 
+                     Он не только работает с фотоаппаратом, но и выстраивает композицию,
+                      принимает участие в разработке концепции блюда, осуществляет ретушь фотографий.
+                       Кулинария – это не просто хобби, но и огромная индустрия,
+                        которая предлагает клиентам готовые традиционные и экзотические блюда, рецепты,
+                        разнообразные продукты, специи и многое другое. Красочная презентация таких товаров позволяет крупным компаниям, ресторанам, службам доставки, блогерам приумножить свой доход.
+            </p>
+            </div>
+          	
+        </div>
+
+       
+    </div>
+  </section>
+    <div id="preim" class="preim">
+        <h2 class="h2">Преимущества </h2>
+       <div class="preimcont">
+           <figure class="snip1477">
+            <img src="img/1-26-760x554.jpg" alt="sample38" />
+            <div class="title">
+              <div>
+            
+                <h4>Творчество</h4>
+                </div>
+            </div>
+            <figcaption>
+              <p>Профессия интересная, она позволяет творчески реализоваться в необычной сфере</p>
+            </figcaption>
+            
+          </figure>
+          <figure class="snip1477 ">
+              <img class="imga" src="img/delicious-1853300-1280-1625130993-ijPS9.jpg" alt="sample91" />
+            <div class="title">
+              <div>
+                <h4>Широкий выбор</h4>
+              </div>
+            </div>
+            <figcaption>
+              <p>Широкий выбор направлений деятельности – от фриланса до фуд-студий</p>
+            </figcaption>
+            
+          </figure>
+          <figure class="snip1477"><img class="imga1" src="img/ICggbrSx1F.jpg" alt="sample35" />
+            <div class="title">
+              <div>
+              
+                <h4>Оплата труда</h4>
+              </div>
+            </div>
+            <figcaption>
+              <p>Очень достойный уровень оплаты труда, ведь качественное фуд-фото может иметь стоимость от 100 долларов. </p>
+            </figcaption>
+           
+          </figure>
+          <figure class="snip1477">
+            <img class="imga1" src="img/novye_professii_v_rossii_s_vozrastayushhim_sprosom10-980x653.jpg" alt="sample38" />
+            <div class="title">
+              <div>
+            
+                <h4>Обучаемость</h4>
+                              </div>
+            </div>
+            <figcaption>
+              <p>Основы фуд-съемки можно быстро выучить на курсах.</p>
+            </figcaption>
+            
+          </figure>
+         
+        </div> 
+          </div>
+          <script src="js/Новый текстовый документ.js"></script>
+
+          <div id="treb" class="naviki">
+            <h2 class="h2">Необходимые навыки</h2>
+             
+    
+
+  <div class="main">
+ <p class="text"> Фуд-стилист – специалист с отличной фантазией, эстетическим вкусом и креативностью. Он выбирает смелые решения, не боится экспериментировать и является достаточно инициативным человеком. Фуд-стилисты быстро находят общий язык с новыми людьми, они педантичные и пунктуальные, могут проводить много времени на ногах, работая над очередным фуд-шедевром.</p>
+  
+<h3 class="title-example">Коммуникабельность</h3>
+<h3 class="title-example">Креативность</h3>
+<h3 class="title-example">Инициативность</h3>
+
+
+
+</div>
+</div>
+
+<div id="vak" class="obzor">
+  <h2 class="obzorrr">Обзор вакансий и зароботной платы</h2>
+<div class="obzorflex">
+  <div class="col1">
+    <img class="bginfo" src="img/Group 2.png">
+    <p class="t1">100 </p>
+    Вакансий
+  </div>
+  <div class="col2">
+    <img class="bginfo" src="img/Group 2.png">
+    <p class="t1">900-1200 BYN</p>   Зароботная плата
+  </div>
+  <div class="col3">
+    <img class="bginfo" src="img/Group 2.png">
+    <p class="t1">60%</p>
+        Фриланс
+  </div>
+</div>
+</div>
+
+ <div id="ned" class="nedost">
+        <h2 class="nedh">Недостатки </h2>
+     <div class="hover">
+       <!-- Первая картинка -->
+<div class="hover-text-one">
+  <figure class="effect-text-three">
+    <img src="img/_8HMJaS8e1Q.jpg" alt=""/>
+      <figcaption>
+  <h3> Фотограф? </h3>
+  <p>До начала работы в сфере фуд-съемки необходимо попробовать свои силы в профессии обычного фотографа</p>
+      </figcaption>     
+  </figure>
+</div>
+
+<div class="hover-text-one">
+  <figure class="effect-text-three">
+    <img src="img/Group 3.png" alt=""/>
+      <figcaption>
+  <h3>Недовольство клиентов</h3>
+  <p>Не всегда отснятый материал нравится заказчику, поэтому работу приходится переделывать.</p>
+      </figcaption>     
+  </figure>
+</div>
+
+<div class="hover-text-one">
+  <figure class="effect-text-three">
+    <img src="img/kevin-laminto-lR8VNn6B-7A-unsplash.jpg" alt=""/>
+      <figcaption>
+  <h3>Мало заказов</h3>
+  <p>  Небольшое количество заказов на этапе входа в профессию. </p>
+      </figcaption>     
+  </figure>
+</div>
+
+</div>
+        </div> 
+           <div id="shag" class="container">
+        <h2>Первый шаг к професии фуд-стилиста </h2>
+
+
+        <div class="description">
+            <div class="desc-left">
+               
+                <p>
+                    Чтобы стать фуд-стилистом, не нужно заканчивать институт или проходить определенные курсы. Главным для этой профессии должно быть большое желание фотографировать. Делать снимки красиво и умело, иметь выдержку, знать все о контурном освещении и диафрагме. Мастер должен иметь талант, фантазию и свой взгляд на мир, дотошность в мелочах и руки, пригодные для такой тонкой работы. Для того чтобы делать снимки не для домашнего любительского альбома, а продвигаться и быть известным, необходимо собрать портфолио с наиболее удачными работами и показать их в рекламных агентствах или ресторанах. Там всегда пользуются услугами данного профессионала.
+
+Даже если вы не проходили обучение, но у вас есть необходимые навыки и знания, есть шанс получить эту работу. Но знания о приготовлении пищи у вас, несомненно, должны быть.
+            </p>
+            </div>
+            
+        </div>
+
+       
+    </div>
+    <footer>
+      Marina Romanova
+    </footer>
+          <script src="js/Новый текстовый документ.js"></script>
+
+
+</body>
+</html>
